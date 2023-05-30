@@ -44,7 +44,7 @@ class MainActivity : AppCompatActivity() {
                             .compress(1024)
                             .crop()
                             .start()
-                            binding.loadingLottie.visibility = View.VISIBLE
+                                binding.loadingLottie.visibility = View.VISIBLE
                     }
                 }
         }
